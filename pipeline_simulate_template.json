@@ -1,0 +1,55 @@
+{
+  "pipeline": {},
+  "docs": [
+    {
+      "_source": {
+        "message": "Apr  5 17:54:21 strand postfix/smtpd[10827]: lost connection after RCPT from adsl-77-86-76-98.karoo.KCOM.COM[77.86.76.98]"
+      }
+    },
+    {
+      "_source": {
+        "message": "Apr  5 17:54:30 strand postfix/smtpd[10827]: connect from unknown[185.170.209.188]"
+      }
+    },
+    {
+      "_source": {
+        "message": "Apr  5 17:54:21 strand postfix/smtpd[10827]: disconnect from adsl-77-86-76-98.karoo.KCOM.COM[77.86.76.98] ehlo=1 mail=1 rcpt=0/1 commands=2/3"
+      }
+    },
+    {
+      "_source": {
+        "message": "Apr  5 17:54:30 strand postfix/smtpd[10827]: NOQUEUE: reject: RCPT from unknown[185.170.209.188]: 450 4.7.1 Client host rejected: cannot find your reverse hostname, [185.170.209.188]; from=<8846-8422-212957-2264-cram=domain.tld@mail.researchconclude.bid> to=<cram@domain.tld> proto=ESMTP helo=<austin.researchconclude.bid>"
+      }
+    },
+    {
+      "_source": {
+        "message": "Apr  5 17:54:49 strand postfix/smtpd[10827]: 98AEDA06BC: client=o780.emails.bradsdeals.com[167.89.25.242]"
+      }
+    },
+    {
+      "_source": {
+        "message": "Apr  5 17:54:49 strand postfix/cleanup[10840]: 98AEDA06BC: message-id=<mx6uP6mfTTuDn6rxYiVTog@ismtpd0036p1iad1.sendgrid.net>"
+      }
+    },
+    {
+      "_source": {
+        "message": "Apr  5 17:54:50 strand postfix/qmgr[29983]: 98AEDA06BC: from=<bounces+5595449-1d87-cram=domain.tld@emails.bradsdeals.com>, size=119460, nrcpt=1 (queue active)"
+      }
+    },
+    {
+      "_source": {
+        "message": "Apr  5 17:54:50 strand postfix/smtp[10841]: 98AEDA06BC: to=<cram@domain.tld>, relay=smtp.domain.tld[10.50.107.12]:2525, delay=2.1, delays=1.2/0.08/0.25/0.48, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 7E5372C0C21)"
+      }
+    },
+    {
+      "_source": {
+        "message": "Apr  5 17:54:50 strand postfix/qmgr[29983]: 98AEDA06BC: removed"
+      }
+    },
+    {
+      "_source": {
+        "message": "Apr  5 20:30:28 strand postfix/smtpd[11722]: NOQUEUE: reject: RCPT from mail-a.mail-lab38.com[83.167.229.55]: 554 5.7.1 Service unavailable; Client host [83.167.229.55] blocked using zen.spamhaus.org; https://www.spamhaus.org/sbl/query/SBLCSS; from=<life-insurance-network-cram=domain.tld@cernladen.com> to=<cram@domain.tld> proto=ESMTP helo=<mail.cernladen.com>"
+      }
+    }
+  ]
+}
